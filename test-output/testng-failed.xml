@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demo.nopcommerce.com/"/>
+    <classes>
+      <class name="TestClass.AddProdcutPageTest">
+        <methods>
+          <include name="openWebsite"/>
+          <include name="SelectProce22GHzValidation"/>
+          <include name="SelectSofAcrobatReaderValidation"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestClass.AddProdcutPageTest -->
+      <class name="TestClass.checkOutPageTest">
+        <methods>
+          <include name="ClickOnConfirmBtn"/>
+          <include name="paymentInformVerifyCity"/>
+          <include name="ShipByLandTran"/>
+          <include name="VerifyTheUnitPrice"/>
+          <include name="clickOnPayMethodContinue"/>
+          <include name="payByCreditOrDebit"/>
+          <include name="TheTwoDayAirShipping"/>
+          <include name="RegTest"/>
+          <include name="VerifyShippingAdress"/>
+          <include name="setup"/>
+          <include name="openWebsite"/>
+          <include name="ClickOnContinue"/>
+          <include name="ClickOnContinuePaymentInform"/>
+          <include name="VerifyBillingAdress"/>
+          <include name="VerifyTheTotalPriceInSlip"/>
+          <include name="VerifyConfirmOrderBackBtn"/>
+          <include name="paymentInformVerifyStateAddress"/>
+          <include name="VerrifyTheQuntity"/>
+          <include name="VerifyTheTotalPriceInTable"/>
+          <include name="closeBrowser"/>
+          <include name="payByMonyOrder"/>
+          <include name="TheOneDayAirShipping"/>
+          <include name="ContinueShipMethod"/>
+        </methods>
+      </class> <!-- TestClass.checkOutPageTest -->
+      <class name="TestClass.OrderPageTest">
+        <methods>
+          <include name="giftWrapTest"/>
+          <include name="closeBrowser"/>
+          <include name="openWebsite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestClass.OrderPageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
