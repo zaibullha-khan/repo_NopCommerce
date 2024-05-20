@@ -35,7 +35,7 @@ public static WebDriver driver;
 	    ExtentManager.setExtent(); // for extending report
 	 	if(browser.equals("chrome"))
 		{
-	 		 WebDriverManager.chromedriver().browserVersion("124.0.6367.201").setup();
+	 		 WebDriverManager.chromedriver().browserVersion("125.0.6422.61").setup();
      	     driver=new ChromeDriver();
 		}
 		else if(browser.equals("firefox"))
